@@ -1,0 +1,12 @@
+.menu-title-container {
+  text-align: center;
+  color: white;
+  margin: 20px 0;
+}
+
+.menu-title-container h1 {
+  margin: 0 15px;
+  font-size: 150px;
+  font-weight: bold;
+  font-family: "Segoe UI";
+}
