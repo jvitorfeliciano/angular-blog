@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { News } from 'src/app/protocols/news';
 
 @Component({
   selector: 'app-small-card',
@@ -7,7 +8,5 @@ import { Component, Input } from '@angular/core';
 })
 export class SmallCardComponent {
   @Input()
-  photoCover: string = '';
-  @Input()
-  cardTitle: string = '';
+  news: News | undefined;
 }

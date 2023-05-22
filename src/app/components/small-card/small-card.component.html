@@ -1,10 +1,10 @@
 <div class="small-card__container">
   <div class="small-card__photo">
-    <img [src]="photoCover" />
+    <img [src]="news?.photoCover" />
   </div>
   <div class="small-card__title">
     <h1>
-      <a href="#"> {{ cardTitle }}</a>
+      <a [routerLink]="['content', news?.id]"> {{ news?.title}}</a>
     </h1>
   </div>
 </div>
